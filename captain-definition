@@ -1,5 +1,5 @@
  {
   "schemaVersion": 2,
-  "dockerfilePath": "/c/users/dustin/docker/Dockerfile_streamlit"
+  "dockerfilePath": "./Dockerfile"
  }
 
