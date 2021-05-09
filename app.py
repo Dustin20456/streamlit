@@ -8,7 +8,8 @@ st.title('International Life Expectancies')
 
 #caching data
 def fetch_data():
-    data = pd.read_csv('c:/Users/Dustin/docker/streamlit/merged_data.csv')
+    #data = pd.read_csv('c:/Users/Dustin/docker/streamlit/merged_data.csv')
+    data = pd.read_csv('merged_data.csv')
     data['log_gni'] = np.log10(data['GNI per captia'])
     return data
 
